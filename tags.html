@@ -1,0 +1,36 @@
+---
+layout:      page
+title:       Blog
+description: It's a Wonderful Life
+---
+{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% assign tag_words = site_tags | split:',' | sort %}
+
+<div class="tag-wrapper">
+<h2 id="tag-banner">Collection</h2>
+	<ul class="tags">
+	  {% for item in (0..site.tags.size) %}{% unless forloop.last %}
+		{% capture this_word %}{{ tag_words[item] }}{% endcapture %}
+		<li>
+		  <a href="#{{ this_word | url_escape }}" class="tag">{{ this_word }}
+		    <span>({{ site.tags[this_word].size }})</span>
+		  </a>
+		</li>
+	  {% endunless %}{% endfor %}
+	</ul>
+	
+	<hr>
+	
+  	{% for item in (0..site.tags.size) %}{% unless forloop.last %}
+    	{% capture this_word %}{{ tag_words[item] }}{% endcapture %}
+    		<div class="tag-panel">
+				<h2 id="{{ this_word | url_escape }}">{{ this_word }}</h2>
+				{% for post in site.tags[this_word] %}{% if post.title != null %}
+					<div class="tag-post">
+						<span class="tag-post-title"><a href="{{ post.url | relative_url}}">{{ post.title }}</a></span>
+						<span class="tag-post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+					</div>
+				{% endif %}{% endfor %}
+			</div>
+  	{% endunless %}{% endfor %}
+</div>

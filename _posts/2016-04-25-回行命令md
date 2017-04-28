@@ -1,0 +1,28 @@
+---
+layout:     post
+title:      "回行命令"
+date:       2016-04-25 21:15:42 +0800
+author:     Leo
+categories: Learn
+tags:       C
+---
+```c
+#include <stdio.h>
+#include <windows.h>
+
+void main() {
+
+ for (int i = 0; i <10; i++) {
+  printf("operating: %d%%\r", i);
+  Sleep(100);
+ }
+
+}
+```
+
+
+`\r`的作用为回行覆写，可以模拟类似加载率的效果。
+
+要输出%号要利用%%的写法转义。
+
+`Sleep(milisecond)` 函数可以让代码块休眠，此函数包含在`windows.h`头文件中。

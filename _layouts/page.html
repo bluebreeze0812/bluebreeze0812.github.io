@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div id="main">
+
+  <header id="page-banner">
+    <h2>{{ page.title }}</h2>
+    {% if page.description %}
+    	<p>{{ page.description }}</p>
+    {% endif %}
+  </header>
+
+  <div class="wrapper style5">
+    <div class="inner">
+      {{ content }}
+    </div>
+  </div>
+
+</div>

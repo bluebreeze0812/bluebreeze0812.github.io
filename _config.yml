@@ -1,0 +1,38 @@
+title: BlueBreeze
+description: |
+  I'm Leo  
+  A full stack engineer  
+  Stay hungry, stay foolish
+owner: Leo
+first_published: 2017
+email: bluebreeze0812@hotmail.com
+baseurl: ""
+url: "https://bluebreeze0812.github.io/"
+social:
+  github: https://github.com/bluebreeze0812
+  linkedin-square: https://www.linkedin.com/in/leo-wang-56bb13132/
+  google-plus-square: https://plus.google.com/u/0/100035697594413745634
+  instagram: https://www.instagram.com/sophialeo1314/
+  email: /contact/
+
+markdown: kramdown
+
+permalink: pretty
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout:   post
+      author:   Leo
+      comments: true
+      
+gems:
+  - jekyll-paginate
+  
+paginate: 10
+paginate_path: "/blog/:num"
+
+timezone: Asia/Chongqing
