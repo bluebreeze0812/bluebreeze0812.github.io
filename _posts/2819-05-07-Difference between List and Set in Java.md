@@ -34,7 +34,7 @@ If there is a need to maintain the insertion order irrespective of the duplicity
 
 
 #### List Example
-```Java
+```java
 import java.util.List;
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -59,7 +59,7 @@ public class ListExample {
 }
 ```
 **Output:**
-```Java
+```java
 ArrayList Elements: 
 [Chaitanya, Rahul, Ajeet]
 LinkedList Elements: 
@@ -67,7 +67,7 @@ LinkedList Elements:
 ```
 
 #### Set Example
-```Java
+```java
 import java.util.Set;
 import java.util.HashSet;
 import java.util.TreeSet;
@@ -94,7 +94,7 @@ public class SetExample {
 }
 ```
 **Output:**
-```Java
+```java
 [33, 22, 11, 44]
 The sorted list is:
 [11, 22, 33, 44]
