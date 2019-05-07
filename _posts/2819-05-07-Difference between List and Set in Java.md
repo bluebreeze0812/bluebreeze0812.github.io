@@ -4,7 +4,7 @@ title:      Difference between List and Set in Java
 date:       2019-05-07 21:55:10 +0800
 author:     Leo
 categories: Learn
-tags:       HTML CSS
+tags:       Java
 ---
 List and Set both are interfaces. They both extends Collection interface. In this post we are discussing the **differences between List and Set interfaces** in java.
 
