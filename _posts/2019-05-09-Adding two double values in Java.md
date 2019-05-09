@@ -23,7 +23,7 @@ Workarounds:
     
 -   cut down on floating-point errors with the  [Kahan Summation Algorithm][3].
 
-[test]: https://imgur.com/a/Seh5wQ3 "test result"
+[test]: https://i.imgur.com/x4f86Wb.png "test result"
 [1]: http://en.wikipedia.org/wiki/IEEE_floating_point
 [2]: http://docs.oracle.com/javase/7/docs/api/java/math/BigDecimal.html
 [3]: http://en.wikipedia.org/wiki/Kahan_summation_algorithm
