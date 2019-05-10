@@ -54,26 +54,20 @@ Another approach:
 
 Open Terminal and run the following command first to allow custom alpha values for Ubuntu dock
 
-
 ```
 gsettings set org.gnome.shell.extensions.dash-to-dock customize-alphas true
-
 ```
 
 Then run the following to set the minimum alpha value (i.e. when a window is  _not_  maximised or touching the top-bar or dock)
 
-
 ```
 gsettings set org.gnome.shell.extensions.dash-to-dock min-alpha 0
-
 ```
 
 Finally, if you want, run the following to set the maximum alpha value (i.e. when a window is maximised)
 
-
 ```
 gsettings set org.gnome.shell.extensions.dash-to-dock max-alpha 0
-
 ```
 
 Then log out and log in again.
