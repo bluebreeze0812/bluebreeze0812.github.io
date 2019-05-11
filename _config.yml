@@ -29,7 +29,7 @@ defaults:
       author:   Leo
       comments: true
       
-gems:
+plugins:
   - jekyll-paginate
   
 paginate: 10
