@@ -765,20 +765,16 @@ $baseurl: '{{ site.baseurl }}/images';
 	}
 
 	table {
-		display: block;
+		display: table;
 		overflow: auto;
 		margin: 0 0 _size(element-margin) 0;
 		width: 100%;
 
 		thead {
-			display: table;
-			width: 100%;
 			border-bottom: solid 2px _palette(border);
 		}
 
 		tbody {
-			display: table;
-			width: 100%;
 			tr {
 				border: solid 1px _palette(border);
 				border-left: 0;
@@ -791,8 +787,6 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 
 		tfoot {
-			display: table;
-			width: 100%;
 			border-top: solid 2px _palette(border);
 		}
 
@@ -804,7 +798,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			color: _palette(fg-bold);
 			font-size: 0.9em;
 			font-weight: _font(weight-bold);
-			padding: 0 0.75em 0.75em 0.75em;
+			padding: 0.75em 0.75em;
 			text-align: left;
 		}
 
