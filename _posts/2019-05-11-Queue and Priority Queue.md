@@ -15,14 +15,14 @@ public interface Queue<E> extends Collection<E>
 ```
 
 ### Methods of Java Queue Interface
-| Method                | Description                                                                                                   |
+| Method | Description |
 |-----------------------|---------------------------------------------------------------------------------------------------------------|
-| boolean add(object)   | It is used to insert the specified element into this queue and return true upon success.                      |
-| boolean offer(object) | It is used to insert the specified element into this queue.                                                   |
-| Object remove()       | It is used to retrieves and removes the head of this queue.                                                   |
-| Object poll()         | It is used to retrieves and removes the head of this queue, or returns null if this queue is empty.           |
-| Object element()      | It is used to retrieves, but does not remove, the head of this queue.                                         |
-| Object peek()         | It is used to retrieves, but does not remove, the head of this queue, or returns null if this queue is empty. |
+| boolean add(object) | It is used to insert the specified element into this queue and return true upon success. |
+| boolean offer(object) | It is used to insert the specified element into this queue. |
+| Object remove() | It is used to retrieves and removes the head of this queue. |
+| Object poll() | It is used to retrieves and removes the head of this queue, or returns null if this queue is empty. |
+| Object element() | It is used to retrieves, but does not remove, the head of this queue. |
+| Object peek() | It is used to retrieves, but does not remove, the head of this queue, or returns null if this queue is empty. |
 
 ## PriorityQueue class
 The PriorityQueue class provides the facility of using queue. But it does not orders the elements in `FIFO` manner. It inherits `AbstractQueue` class.
