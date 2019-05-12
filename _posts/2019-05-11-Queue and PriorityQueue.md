@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Queue and Priority Queue
+title:      Queue and PriorityQueue
 date:       2019-05-11 23:03:36 +0800
 author:     Leo
 categories: Learn
