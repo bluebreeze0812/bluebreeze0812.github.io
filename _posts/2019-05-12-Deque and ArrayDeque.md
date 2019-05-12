@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Deque and ArrayDeque
-date:       
+date:       2019-05-12 15:08:32 +0800
 author:     Leo
 categories: Learn
 tags:       Java
