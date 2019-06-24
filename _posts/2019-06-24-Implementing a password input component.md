@@ -105,7 +105,6 @@ Page({
 }
 ```
 
-<img src="https://i.imgur.com/wjUbG8c.png" alt="input empty" title="input empty" style="width: 1000px; height: 515px; display: block; object-fit: contain;">
-
-<img src="https://i.imgur.com/PQqPAs2.png" alt="input full" title="input full" style="width: 1000px; height: 515px; display: block; object-fit: contain;">
+<img src="https://i.imgur.com/wjUbG8c.png" alt="input empty" title="input empty" style="width: 300px; height: 515px; display: inline-block; object-fit: contain;">
+<img src="https://i.imgur.com/PQqPAs2.png" alt="input full" title="input full" style="width: 300px; height: 515px; display: inline-block; object-fit: contain;">
 
