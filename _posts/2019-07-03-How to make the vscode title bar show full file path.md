@@ -22,4 +22,4 @@ tags:       Misc
 
 ## Result:
 
-![](https://miro.medium.com/max/1563/1*d_aEH_PBxsVIB_JOCxG0Pg.png)
+<img src="https://miro.medium.com/max/1563/1*d_aEH_PBxsVIB_JOCxG0Pg.png" style="width: 1100px;">
