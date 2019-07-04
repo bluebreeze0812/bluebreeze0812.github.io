@@ -34,7 +34,7 @@ container {
 }
 ```
 
-![flex container](https://gedd.ski/img/flexbox/1.png)
+<img src="https://gedd.ski/img/flexbox/1.png" alt="flex container" style="width: 1038px;">
 
 ## Setting a Width
 
@@ -47,11 +47,11 @@ item {
 }
 ```
 
-![flex items](https://gedd.ski/img/flexbox/2.png)
+<img src="https://gedd.ski/img/flexbox/2.png" alt="flex container" style="width: 1038px;">
 
 Our flex container has plenty of room so our items fit nicely into it:
 
-![flex items](https://gedd.ski/img/flexbox/3.png)
+<img src="https://gedd.ski/img/flexbox/3.png" alt="flex container" style="width: 1038px;">
 
 In this example our items'  `flex-basis`  wasn't specified, so it defaulted to  `flex-basis: auto`, which falls back to the  `width`(200px).
 
@@ -68,7 +68,7 @@ item {
 }
 ```
 
-![flex items](https://gedd.ski/img/flexbox/7.png)
+<img src="https://gedd.ski/img/flexbox/7.png" alt="flex container" style="width: 1038px;">
 
 As you can see, when a  `flex-basis`  is specified, the  `width`  of our boxes is ignored, so we don't even need to specify it:
 
@@ -80,7 +80,7 @@ item {
 
 Our final  `flex-basis`  for each item is 250px. And since we have enough room for all of those, they'll fit nicely into their flex container:
 
-![flex items](https://gedd.ski/img/flexbox/8.png)
+<img src="https://gedd.ski/img/flexbox/8.png" alt="flex container" style="width: 1038px;">
 
 Remember the flex items formula:
 
@@ -99,11 +99,11 @@ item {
 }
 ```
 
-![flex items](https://gedd.ski/img/flexbox/9.png)
+<img src="https://gedd.ski/img/flexbox/9.png" alt="flex container" style="width: 1038px;">
 
 Even though our  `flex-basis`  was set to 250px, it hit the 100px  `max-width`  limit. So our final  `flex-basis`  in this case is 100px, and our items will fit into the flex container like so:
 
-![flex items](https://gedd.ski/img/flexbox/10.png)
+<img src="https://gedd.ski/img/flexbox/10.png" alt="flex container" style="width: 1038px;">
 
 Now let's set a  `min-width`  and see how that limits our final  `flex-basis`:
 
@@ -114,11 +114,11 @@ item {
 }
 ```
 
-![flex items](https://gedd.ski/img/flexbox/7.png)
+<img src="https://gedd.ski/img/flexbox/7.png" alt="flex container" style="width: 1038px;">
 
 Even though we specified 100px for our  `flex-basis`, it couldn't go lower than the 250px  `min-width`  limit. So our final  `flex-basis`  is 250px and our flex items fit perfectly into the container:
 
-![flex items](https://gedd.ski/img/flexbox/8.png)
+<img src="https://gedd.ski/img/flexbox/8.png" alt="flex container" style="width: 1038px;">
 
 ## So What Exactly is flex-basis?
 
@@ -130,11 +130,11 @@ You probably noticed that in all of our illustrations we visualized the size of 
 
 Say we wanted to put even more of these  `flex-basis: 200px`items into our container:
 
-![flex items](https://gedd.ski/img/flexbox/4.png)
+<img src="https://gedd.ski/img/flexbox/4.png" alt="flex container" style="width: 1038px;">
 
 Before going into the container they would each take up 200px, or 1600px total. But our container only has 1000px available. When there's not enough room for all the items' full  `flex-basis`  (200px each) then flex items by default will  _shrink_  to fit:
 
-![flex items](https://gedd.ski/img/flexbox/5.png)
+<img src="https://gedd.ski/img/flexbox/5.png" alt="flex container" style="width: 1038px;">
 
 All of the items started out at 200px wide, but since we were short on space they shrunk at an even rate until they all fit (125px each). That  **shrink rate**  is what the  `flex-shrink`  ratio is all about. You can override the default to make specific items shrink faster (higher ratio) or slower (lower ratio) or not shrink at all (0).
 
@@ -148,7 +148,7 @@ item {
 }
 ```
 
-![flex items](https://gedd.ski/img/flexbox/9.png)
+<img src="https://gedd.ski/img/flexbox/9.png" alt="flex container" style="width: 1038px;">
 
 We can instruct our flex items to grow to fill the available space once they're placed into the flex container. That's what the  `flex-grow`property is all about. The default value is  `0`, meaning don't grow. Let's set each item to  `flex-grow: 1`  (all grow at the same rate) to fill up the remaining space:
 
@@ -159,6 +159,6 @@ item {
 }
 ```
 
-![flex items](https://gedd.ski/img/flexbox/8.png)
+<img src="https://gedd.ski/img/flexbox/8.png" alt="flex container" style="width: 1038px;">
 
 Growing and shrinking is a huge part of the coolness of flexbox, and is what makes flexbox so great for responsive UI design.  [Flexbox Zombies](https://flexboxzombies.com/)educational game covers  `flex-shrink`  and  `flex-grow`  in more detail.
